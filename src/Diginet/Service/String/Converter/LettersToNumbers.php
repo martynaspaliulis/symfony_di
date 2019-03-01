@@ -7,7 +7,6 @@ class LettersToNumbers implements ConverterInterface
 
     public function convert($string)
     {
-
         $alphabet = range('a', 'z');
 
         return preg_replace_callback(
@@ -17,7 +16,6 @@ class LettersToNumbers implements ConverterInterface
             },
             $string
         );
-
     }
 }
 

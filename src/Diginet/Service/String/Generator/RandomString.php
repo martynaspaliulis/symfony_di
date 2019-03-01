@@ -18,7 +18,8 @@ class RandomString
 
     public function generate()
     {
-        return $this->converter->convert($this->generateRandomString());
+        $rndString = $this->generateRandomString();
+        return $this->converter->convert($rndString);
     }
 
     public function generateRandomString(){

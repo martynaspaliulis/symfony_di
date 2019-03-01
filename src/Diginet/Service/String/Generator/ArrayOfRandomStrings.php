@@ -16,7 +16,6 @@ class ArrayOfRandomStrings
         $this->randomStringGenerator = $randomStringGenerator;
         $this->converter = $converter;
         $this->arrayLength = $arrayLength;
-
     }
 
     public function generate()

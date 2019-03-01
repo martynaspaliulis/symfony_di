@@ -3,7 +3,6 @@
 $containerBuilder->setParameter('random_string.length', 12);
 $containerBuilder->setParameter('array_of_random_strings.length', 12);
 
-
 // Register Converters
 $containerBuilder->register('letters_to_numbers', '\Diginet\Service\String\Converter\LettersToNumbers');
 $containerBuilder->register('rot12', '\Diginet\Service\String\Converter\Rot13');
